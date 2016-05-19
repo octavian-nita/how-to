@@ -1,2 +1,2 @@
 # how-to
-Personal collection of how-tos.
+Personal collection of *how-to*'s.
