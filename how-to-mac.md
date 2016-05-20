@@ -33,3 +33,10 @@
 * http://superuser.com/questions/109590/whats-the-equivalent-of-linuxs-updatedb-command-for-the-mac
 
 `sudo /usr/libexec/locate.updatedb`
+
+## homebrew update / cleanup
+
+* http://superuser.com/questions/975701/how-can-i-remove-outdated-installed-versions-of-homebrew-packages
+* http://blog.shvetsov.com/2014/11/homebrew-cheat-sheet-and-workflow.html
+
+`sudo brew update && sudo brew upgrade --all && sudo brew upgrade brew-cask; sudo brew cleanup; sudo brew cask cleanup; sudo brew doctor`
