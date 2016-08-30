@@ -26,6 +26,6 @@
  * remember the available _Workspace_s; e.g. `Typography` with the _Pages Panel_, etc.
  * using `Facing Pages` in _New Document_ generates spreads with both left and a right page
  * `ALT + click on icons` / `OPT + click on icons` gives you options / alternatives
+ * whatever is in an _A-Master_ page, our (_A-Master_-defined) pages will follow
 
 # ???
- * whatever is in an _A-Master_ page, our (_A-Master_-defined) pages will follow
