@@ -41,7 +41,9 @@
 * http://stackoverflow.com/questions/16432071/how-to-fix-homebrew-permissions
 
 `sudo chown -R "$USER":admin /usr/local`
+
 `sudo chown -R "$USER":admin /Library/Caches/Homebrew`
+
 `sudo chown -R $(whoami) /Users/${USER}/Library/Caches/Homebrew`
 
 `brew update && brew upgrade --all; brew cleanup; brew cask cleanup; brew doctor`
