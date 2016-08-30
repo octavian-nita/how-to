@@ -38,5 +38,10 @@
 
 * http://superuser.com/questions/975701/how-can-i-remove-outdated-installed-versions-of-homebrew-packages
 * http://blog.shvetsov.com/2014/11/homebrew-cheat-sheet-and-workflow.html
+* http://stackoverflow.com/questions/16432071/how-to-fix-homebrew-permissions
 
-`sudo brew update && sudo brew upgrade --all && sudo brew upgrade brew-cask; sudo brew cleanup; sudo brew cask cleanup; sudo brew doctor`
+`sudo chown -R "$USER":admin /usr/local`
+`sudo chown -R "$USER":admin /Library/Caches/Homebrew`
+`sudo chown -R $(whoami) /Users/${USER}/Library/Caches/Homebrew`
+
+`brew update && brew upgrade --all; brew cleanup; brew cask cleanup; brew doctor`
