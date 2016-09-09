@@ -5,7 +5,7 @@
  * `CTRL+D` / `CMD+D` _places_ graphics, etc.; single click inserts the object / graphic at 100%, click + drag to define the size of the frame
  * hold down `SHIFT` to constrain the proportions, to draw horizontal / vertical lines, etc.
  * `W` enters the preview mode; `W` again to return to the previous mode
- * `CTRL+SPACE + drag` to zoom incont
+ * `CTRL+SPACE + drag` to zoom in content
  * `CTRL+ALT+0` / `CMD+OPT+0` to zoom back to fit in window
  * `ALT+PgDown` / `OPT+PgDown` to go to the next _spread_
  * `CTRL+4` / `CMD+4` zooms into to 400%
