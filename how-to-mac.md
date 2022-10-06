@@ -46,4 +46,4 @@
 
 `sudo chown -R $(whoami) /Users/${USER}/Library/Caches/Homebrew`
 
-`brew update && brew upgrade; brew cleanup; brew doctor`
+`brew update && brew upgrade; brew autoremove; brew cleanup; brew doctor`
